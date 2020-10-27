@@ -14,7 +14,7 @@
    ###
    #### O arquivo ArquivosPrimeiraPagina.csv possui as primeiras páginas de todos os arquivos, sem nenhum pré-processamento, já o arquivo ArquivosProcessados.csv possui os arquivos pós-processamento.
 
-   #### O notebook TrabalhoFinalGarimpagem é o que usamos no colab para analisar os dados e realizar o treinamento dos modelos.
+   #### O notebook [TrabalhoFinalGarimpagem](https://colab.research.google.com/drive/1frkj2GP6nPnyc0XtnUT_OcB7bmUOf7t1?authuser=1#scrollTo=CX7djj02boNZ) é o que usamos no colab para analisar os dados e realizar o treinamento dos modelos.
 
    #### Após selecionar um modelo, criamos uma pipeline com as etapas utilizadas pelo modelo para classificar um documento já pré-processado. Então colocamos está pipeline num aplicação Flask, criada para demonstrar o resultada do uma predição.
 
