@@ -19,5 +19,5 @@
    #### Após selecionar um modelo, criamos uma pipeline com as etapas utilizadas pelo modelo para classificar um documento já pré-processado. Então colocamos está pipeline num aplicação Flask, criada para demonstrar o resultada do uma predição.
 
    <p align="center">
-      <img src="./fotos/resultado.jpg" width="350" title="hover text">
+      <img src="./fotos/resultado.jpg" width="700" title="hover text">
    </p>
