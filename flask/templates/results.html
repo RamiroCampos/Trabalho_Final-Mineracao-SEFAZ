@@ -1,0 +1,18 @@
+{% extends "home.html" %}
+
+
+{% block results %}
+{% if veredito != None %}
+  <div >
+    <button type="button" class= "btn btn-lg btn-primary" disabled> {{ veredito }} </button>
+  </div>
+<!-- {% elif cor == "danger" %}
+  <div>
+    <button type="button" class= "btn btn-lg btn-danger" disabled> {{ veredito }} </button>
+  </div> -->
+{% else %}
+  <div>
+    <button type="button" class= "btn btn-lg btn-secundary" disabled> Não foi possível chegar em uma decisão </button>
+  </div>
+{% endif %}  
+{% endblock %}
